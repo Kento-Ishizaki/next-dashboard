@@ -1,4 +1,3 @@
-'use client'
 import { School } from '@/components/model/school'
 import { ColumnDef } from '@tanstack/react-table'
 

@@ -1,5 +1,3 @@
-import { Props } from './Dashboard.page'
-
 const menus = [
   'ダッシュボード',
   'スクール',
@@ -9,9 +7,9 @@ const menus = [
   'ガイド',
 ]
 
-const Sidebar = ({ width }: Props) => {
+const Sidebar = () => {
   return (
-    <aside className={`absolute h-screen w-${width} bg-cyan-500`}>
+    <aside className={`absolute h-screen w-56 bg-cyan-500`}>
       <div className="flex flex-col text-white font-bold divide-y">
         {menus.map((menu) => (
           <div key={menu} className="flex items-center h-14 pl-4">
