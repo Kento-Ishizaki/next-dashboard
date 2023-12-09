@@ -11,7 +11,7 @@ const menus = [
 
 const Sidebar = ({ width }: Props) => {
   return (
-    <aside className={`absolute h-screen w-${width} bg-sky-400`}>
+    <aside className={`absolute h-screen w-${width} bg-cyan-500`}>
       <div className="flex flex-col text-white font-bold divide-y">
         {menus.map((menu) => (
           <div key={menu} className="flex items-center h-14 pl-4">
