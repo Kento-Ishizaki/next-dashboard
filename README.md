@@ -1,4 +1,4 @@
-# next-template
+# next-dashboard
 
 ## Setup
 
@@ -9,4 +9,4 @@ $ docker compose up
 
 ## URL
 
-http://localhost:3001
+http://localhost:3000
